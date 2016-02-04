@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbReservation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="lbReservation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 381</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbReservation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbReservation.Name" xml:space="preserve">
+    <value>lbReservation</value>
+  </data>
+  <data name="&gt;&gt;lbReservation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbReservation.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbReservation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="butCreateReservations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 410</value>
+  </data>
+  <data name="butCreateReservations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="butCreateReservations.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="butCreateReservations.Text" xml:space="preserve">
+    <value>&amp;Reservieren</value>
+  </data>
+  <data name="&gt;&gt;butCreateReservations.Name" xml:space="preserve">
+    <value>butCreateReservations</value>
+  </data>
+  <data name="&gt;&gt;butCreateReservations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butCreateReservations.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;butCreateReservations.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 119</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 439</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Reservieren</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbMedia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="lbMedia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 381</value>
+  </data>
+  <data name="lbMedia.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbMedia.Name" xml:space="preserve">
+    <value>lbMedia</value>
+  </data>
+  <data name="&gt;&gt;lbMedia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMedia.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbMedia.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="butDeleteSelected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butDeleteSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 410</value>
+  </data>
+  <data name="butDeleteSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="butDeleteSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="butDeleteSelected.Text" xml:space="preserve">
+    <value>Selektierte &amp;löschen</value>
+  </data>
+  <data name="&gt;&gt;butDeleteSelected.Name" xml:space="preserve">
+    <value>butDeleteSelected</value>
+  </data>
+  <data name="&gt;&gt;butDeleteSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butDeleteSelected.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;butDeleteSelected.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 119</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 439</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Medien</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbRent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="lbRent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 381</value>
+  </data>
+  <data name="lbRent.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbRent.Name" xml:space="preserve">
+    <value>lbRent</value>
+  </data>
+  <data name="&gt;&gt;lbRent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbRent.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;lbRent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="butCreateLendings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butCreateLendings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 410</value>
+  </data>
+  <data name="butCreateLendings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="butCreateLendings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="butCreateLendings.Text" xml:space="preserve">
+    <value>&amp;Ausleihen</value>
+  </data>
+  <data name="&gt;&gt;butCreateLendings.Name" xml:space="preserve">
+    <value>butCreateLendings</value>
+  </data>
+  <data name="&gt;&gt;butCreateLendings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butCreateLendings.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;butCreateLendings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 119</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 439</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Ausleihen</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblCustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="lblCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="lblCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCustomer.Text" xml:space="preserve">
+    <value>Kunde:</value>
+  </data>
+  <data name="&gt;&gt;lblCustomer.Name" xml:space="preserve">
+    <value>lblCustomer</value>
+  </data>
+  <data name="&gt;&gt;lblCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCustomer.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 14</value>
+  </data>
+  <data name="txtCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 20</value>
+  </data>
+  <data name="txtCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtCustomer.Name" xml:space="preserve">
+    <value>txtCustomer</value>
+  </data>
+  <data name="&gt;&gt;txtCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCustomer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtCustomer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="butSearchCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 12</value>
+  </data>
+  <data name="butSearchCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="butSearchCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="butSearchCustomer.Text" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="&gt;&gt;butSearchCustomer.Name" xml:space="preserve">
+    <value>butSearchCustomer</value>
+  </data>
+  <data name="&gt;&gt;butSearchCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSearchCustomer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butSearchCustomer.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblMedia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMedia.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMedia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 60</value>
+  </data>
+  <data name="lblMedia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lblMedia.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblMedia.Text" xml:space="preserve">
+    <value>Medien:</value>
+  </data>
+  <data name="&gt;&gt;lblMedia.Name" xml:space="preserve">
+    <value>lblMedia</value>
+  </data>
+  <data name="&gt;&gt;lblMedia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMedia.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMedia.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="butMediaSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butMediaSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 55</value>
+  </data>
+  <data name="butMediaSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="butMediaSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="butMediaSearch.Text" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="&gt;&gt;butMediaSearch.Name" xml:space="preserve">
+    <value>butMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;butMediaSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butMediaSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butMediaSearch.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="butMedia2Rs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 281</value>
+  </data>
+  <data name="butMedia2Rs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="butMedia2Rs.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;butMedia2Rs.Name" xml:space="preserve">
+    <value>butMedia2Rs</value>
+  </data>
+  <data name="&gt;&gt;butMedia2Rs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butMedia2Rs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butMedia2Rs.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="butRes2Media.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butRes2Media.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 310</value>
+  </data>
+  <data name="butRes2Media.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="butRes2Media.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;butRes2Media.Name" xml:space="preserve">
+    <value>butRes2Media</value>
+  </data>
+  <data name="&gt;&gt;butRes2Media.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butRes2Media.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butRes2Media.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="butRent2Media.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butRent2Media.Location" type="System.Drawing.Point, System.Drawing">
+    <value>567, 310</value>
+  </data>
+  <data name="butRent2Media.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="butRent2Media.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;butRent2Media.Name" xml:space="preserve">
+    <value>butRent2Media</value>
+  </data>
+  <data name="&gt;&gt;butRent2Media.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butRent2Media.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butRent2Media.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="butMedia2Rent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butMedia2Rent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>567, 281</value>
+  </data>
+  <data name="butMedia2Rent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="butMedia2Rent.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;butMedia2Rent.Name" xml:space="preserve">
+    <value>butMedia2Rent</value>
+  </data>
+  <data name="&gt;&gt;butMedia2Rent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butMedia2Rent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butMedia2Rent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="butClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 574</value>
+  </data>
+  <data name="butClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="butClose.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="butClose.Text" xml:space="preserve">
+    <value>&amp;Schliessen</value>
+  </data>
+  <data name="&gt;&gt;butClose.Name" xml:space="preserve">
+    <value>butClose</value>
+  </data>
+  <data name="&gt;&gt;butClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>878, 609</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAABgYGAAAACAAODg4AAAAQAAAAOQAmJiYALy8vADk5OQAAAEAAAABIAAAAdAAAAHkAQkJCAF1d
+        XQBmZmYAAACAAAAAiAAAAJIAAACdAAAAsAAAALoACgrvAAcH8QADA/gABQX4AAAA/gBVVd4AWlrhAF9f
+        4ABgYOcAd3f/AAAAAAAALC8AAEtQAABocAAAhpAAAKWwAADDzwAA4fAAEe//ADHx/wBR8/8AcfX/AJH3
+        /wCx+f8A0fv/AP///wAAAAAAAC8hAABQNwAAcEwAAJBjAACweQAAz48AAPCmABH/tAAx/74AUf/IAHH/
+        0wCR/9wAsf/lANH/8AD///8AAAAAAAAvDgAAUBgAAHAiAACQLAAAsDYAAM9AAADwSgAR/1sAMf9xAFH/
+        hwBx/50Akf+yALH/yQDR/98A////AAAAAAACLwAABFAAAAZwAAAIkAAACrAAAAvPAAAO8AAAIP8SAD3/
+        MQBb/1EAef9xAJj/kQC1/7EA1P/RAP///wAAAAAAFC8AACJQAAAwcAAAPZAAAEywAABZzwAAZ/AAAHj/
+        EQCK/zEAnP9RAK7/cQDA/5EA0v+xAOT/0QD///8AAAAAACYvAABAUAAAWnAAAHSQAACOsAAAqc8AAMLw
+        AADR/xEA2P8xAN7/UQDj/3EA6f+RAO//sQD2/9EA////AAAAAAAvJgAAUEEAAHBbAACQdAAAsI4AAM+p
+        AADwwwAA/9IRAP/YMQD/3VEA/+RxAP/qkQD/8LEA//bRAP///wAAAAAALxQAAFAiAABwMAAAkD4AALBN
+        AADPWwAA8GkAAP95EQD/ijEA/51RAP+vcQD/wZEA/9KxAP/l0QD///8AAAAAAC8DAABQBAAAcAYAAJAJ
+        AACwCgAAzwwAAPAOAAD/IBIA/z4xAP9cUQD/enEA/5eRAP+2sQD/1NEA////AAAAAAAvAA4AUAAXAHAA
+        IQCQACsAsAA2AM8AQADwAEkA/xFaAP8xcAD/UYYA/3GcAP+RsgD/scgA/9HfAP///wAAAAAALwAgAFAA
+        NgBwAEwAkABiALAAeADPAI4A8ACkAP8RswD/Mb4A/1HHAP9x0QD/kdwA/7HlAP/R8AD///8AAAAAACwA
+        LwBLAFAAaQBwAIcAkAClALAAxADPAOEA8ADwEf8A8jH/APRR/wD2cf8A95H/APmx/wD70f8A////AAAA
+        AAAbAC8ALQBQAD8AcABSAJAAYwCwAHYAzwCIAPAAmRH/AKYx/wC0Uf8AwnH/AM+R/wDcsf8A69H/AP//
+        /wAAAAAACAAvAA4AUAAVAHAAGwCQACEAsAAmAM8ALADwAD4R/wBYMf8AcVH/AIxx/wCmkf8Av7H/ANrR
+        /wD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAADQAAGxoa
+        GhoaGhoaHQAACAAAAAAAAAAPAAAAAAAAAAAAAAAXGhoaGhoaGhoWAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ABcaGhoaGhoaGhYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxoaGhoaGhoaFgAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAXGhoaGhoaGhoWAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGhoaGhoaGhYAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAFxoaGhoaGhoaFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhoaGhoaGhoWAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAABcaGhoaGhoaGhYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxoaGhoaGhoaFgAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAXGhoaGhoaGhoWAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGhoaGhoaGhYA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAFxoaGhoaGhoaFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhoaGhoa
+        GhoWAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGhoaGhoaGhYAAAAAAAAAAAAAAAAAAAAABBARER4fGBoa
+        GhoaGhoaGR8cEREMAgAAAAAAAAAAAAAUGhoaGhoaGhoaGhoaGhoaGhoaGhoSAAAAAAAAAAAAABUaGhoa
+        GhoaGhoaGhoaGhoaGhoaGhMAAAAABgAAAAAAEhoaGhoaGhoaGhoaGhoaGhoaGhoaCwAAAAAOAAAAAAAA
+        CQoKCgoKCgoKCgoKCgoKCgoKCgUAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAA8A
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQcPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP//////////////////////////AGAGAABgBgAAYAYAAGAGAABgBgAAYAYAAGAGAABg
+        BgAAYAYAAGAGAABgBgAAYAYAAGAGAABgBgAAYAYAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADAAAAB///
+        ////////////////////////
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Medien ausleihen/reservieren</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMediaTasks</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MediathekClient.Forms.FrmDlgBase, MediathekClient, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="Mediathek_Webfrontend.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Mediathek</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div id="logo">
+            <span class="center">
+                Mediathek Web-Frontend
+            </span>
+        </div>
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderMenu" runat="server">
+        </asp:ContentPlaceHolder>
+        
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+            
+                <asp:ScriptManager ID="ScriptManager" runat="server">
+                </asp:ScriptManager>
+            
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <div id="footer">
+            <span class="center">
+                &copy Patric Schielke
+            </span>
+        </div>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mediathek_Webfrontend.ChangePassword" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAACAAAAAAgAAABQAAAAgAAAACCAAAAAAQAAIQEAA=</HashCode>
+      <FileName>ChangePassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.Default" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAgCAAAAAAAABAAAAIDAAABAABAAIQEAA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.Home" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.Lendings" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAABAAAAAABAAAAAAAAAAAAAAAQAAAAIAAKQAAA=</HashCode>
+      <FileName>Lendings.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.Logout" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAA=</HashCode>
+      <FileName>Logout.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaDetail" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAA=</HashCode>
+      <FileName>MediaDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaDetailBook" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAAAAAQAAAAAAADKAAAUAEAAAIIBIAAMQAAE=</HashCode>
+      <FileName>MediaDetailBook.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaDetailGeneral" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAAAAAQAAAAAAADIAAAUAEAAAIIBAAAMQIAA=</HashCode>
+      <FileName>MediaDetailGeneral.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaDetailMusic" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgRAAAAAAAQAAAAAAgDIBAAUAEAAAIIBAAAMQAAA=</HashCode>
+      <FileName>MediaDetailMusic.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaDetailVideo" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAgAAAQAAAAAgQDIAAAUAEAAAIIBAAAMQAAA=</HashCode>
+      <FileName>MediaDetailVideo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaImageHandler1" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>MediaImageHandler.ashx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaSearch" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAFQAABAAEAAAAAIAAAAAABAAAAA4AAAg=</HashCode>
+      <FileName>MediaSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaSearchBooks" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAEAAAIAAAAAAAAAAAAYQAAA=</HashCode>
+      <FileName>MediaSearchBooks.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaSearchGeneral" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAEAAAIAAAAAAAAAAAAYQAAA=</HashCode>
+      <FileName>MediaSearchGeneral.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaSearchMusic" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAEAAAIAAAAAAAAAAAAYQAAA=</HashCode>
+      <FileName>MediaSearchMusic.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaSearchVideos" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAEAAAIAAAAAAAAAAAAYQAAA=</HashCode>
+      <FileName>MediaSearchVideos.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.MediaTypeSelection" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIIAAEQAABAAAAAAAAAAAABAABAAAAAoAACA=</HashCode>
+      <FileName>MediaTypeSelection.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.Reservations" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAgIAAQAAIAABAiAAAAQAAAAAAgIQEAA=</HashCode>
+      <FileName>Reservations.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.SiteMaster" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAAAACAAIAAAg=</HashCode>
+      <FileName>SiteMaster.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.SiteMasterMenu" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAQAgAAAAAAAAAAAAAAAgAAAABAAIIAAAI=</HashCode>
+      <FileName>SiteMasterMenu.master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediathek_Webfrontend.SiteMasterMenuMediaSearch" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAIAAAA=</HashCode>
+      <FileName>SiteMasterMenuMediaSearch.master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLogic.Common.WebHelper" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Common\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

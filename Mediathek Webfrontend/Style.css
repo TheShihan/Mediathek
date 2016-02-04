@@ -1,0 +1,169 @@
+﻿body
+{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	color: #000000;
+}
+#logo
+{
+	background-position: left center;
+	margin: 100px auto 20px auto;
+	width: 800px;
+	background-color: Transparent;
+	background-image: url('Images/Mediathek_Logo.jpg');
+	background-repeat: no-repeat;
+	height: 69px;
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: center;
+	vertical-align: middle;
+}
+#menu
+{
+	margin: 20px 0px 20px 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	background-color: #33CCCC;
+	text-align: center;
+	vertical-align: middle;
+}
+#content
+{
+	width: 800px;
+	min-height: 20px;
+	padding: 5px;
+	margin: 20px auto 20px auto;
+	vertical-align: top;
+	text-align: left;
+	border: 1px solid #000000;
+	background-color: #00FFFF;
+}
+.hide
+{
+    display: none;
+}
+.innerContent
+{
+	border: 1px solid #000000;
+	background-color: #FFFFCC;
+}
+#footer
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	font-size: x-small;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+table.GridView
+{
+	margin: 0px;
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
+	border: 0px solid #000000;
+}
+td
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+}
+span.center
+{
+	vertical-align: middle;
+	text-align: center;
+}
+span.error
+{
+	font-weight: bold;
+	color: #F00;
+}
+A:link
+{
+	color: #353535;
+	text-decoration: none;
+}
+A:visited
+{
+	color: #353535;
+	text-decoration: none;
+}
+A:active
+{
+	color: #353535;
+	text-decoration: none;
+}
+A:hover
+{
+	color: #353535;
+	background-color: #DDD;
+}
+div.label
+{
+	float: left;
+	clear: left;
+	background-color: transparent;
+	padding-left: 30px;
+	text-align: left;
+	font-weight: bold;
+	width: 15em;
+}
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.centerControl
+{
+	text-align: center;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+}
+input.cb1
+{
+	background-color: #D3D3D3;
+}
+form input
+{
+	color: #000;
+	background-color: #fff;
+	border-color: #D3D3D3;
+	border-style: solid;
+	border-width: 1px;
+}
+form input.radio
+{
+	color: #000;
+	background-color: #ffffff;
+	border-color: #000;
+	border-style: dotted;
+	border-width: 1px;
+}
+form select
+{
+	color: #000;
+	background-color: #ffffff;
+	border-color: #000;
+	border-style: dotted;
+	border-width: 1px;
+}
+form input.txtOrderId {
+	text-align: center;
+}
+textarea
+{
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+}

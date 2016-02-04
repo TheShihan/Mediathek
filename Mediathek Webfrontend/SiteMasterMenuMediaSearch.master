@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/SiteMasterMenu.master" AutoEventWireup="true" CodeBehind="SiteMasterMenuMediaSearch.master.cs" Inherits="Mediathek_Webfrontend.SiteMasterMenuMediaSearch" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+
+        <table style="width: 100%">
+            <tr>
+                <td class="innerContent" style="width: 236px; vertical-align: top;">
+                    <br />
+                    <b>Kategorien</b>
+                    <br />
+                    <br />
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolderTreeView" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <br />
+                    </div>
+                </td>
+                <td style="width: 10px">
+                    &nbsp;
+                </td>
+                <td style="vertical-align: top;">
+                    <div class="innerContent">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolderDgv" runat="server">
+                        
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+</asp:Content>

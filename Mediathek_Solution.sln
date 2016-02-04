@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediathek Client", "Mediathek Client\Mediathek Client.csproj", "{EDF217C5-7526-4AD7-BDC1-CA8890EFC598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediathek Webfrontend", "Mediathek Webfrontend\Mediathek Webfrontend.csproj", "{29EEAF4D-1AD4-4CFC-B12D-3E8185341805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{A7CACCC9-9EAC-44D2-B023-2F87155D7426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9418B290-2C3D-4D02-9702-DE7BD8432EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit Tests", "Unit Tests\Unit Tests.csproj", "{323B44C4-10E7-419C-B920-9E0DAA401043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0DCC75F7-817B-4F03-9B59-C090396C0FA1}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Mediathek_Solution.vsmdi = Mediathek_Solution.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Mediathek_Solution.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF217C5-7526-4AD7-BDC1-CA8890EFC598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF217C5-7526-4AD7-BDC1-CA8890EFC598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF217C5-7526-4AD7-BDC1-CA8890EFC598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF217C5-7526-4AD7-BDC1-CA8890EFC598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EEAF4D-1AD4-4CFC-B12D-3E8185341805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EEAF4D-1AD4-4CFC-B12D-3E8185341805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EEAF4D-1AD4-4CFC-B12D-3E8185341805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EEAF4D-1AD4-4CFC-B12D-3E8185341805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CACCC9-9EAC-44D2-B023-2F87155D7426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CACCC9-9EAC-44D2-B023-2F87155D7426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CACCC9-9EAC-44D2-B023-2F87155D7426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CACCC9-9EAC-44D2-B023-2F87155D7426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9418B290-2C3D-4D02-9702-DE7BD8432EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9418B290-2C3D-4D02-9702-DE7BD8432EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9418B290-2C3D-4D02-9702-DE7BD8432EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9418B290-2C3D-4D02-9702-DE7BD8432EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323B44C4-10E7-419C-B920-9E0DAA401043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323B44C4-10E7-419C-B920-9E0DAA401043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323B44C4-10E7-419C-B920-9E0DAA401043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323B44C4-10E7-419C-B920-9E0DAA401043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

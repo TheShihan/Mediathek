@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataAccess.MediathekEntities" Collapsed="true">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAEKAoAKIQiMQAUEAgAAkCAAACsgIAlOACIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.AdministratorMessage" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SUCAEABACAAIAIAgAAAgCAAAAAAQAAAEGAgCAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.Administrator" Collapsed="true">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAARAAAAECAAAEAABSIEEAAUAAEAAAAGAAiAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.AdminMessagesForUser" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQgBAIBAACIAAAAIAAAACAyEAAAAAAAEAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.Category" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQCAAAAAAEiAgQAAAAAIAQAAgAAQAAEAAQgAACgAAQ=</HashCode>
+      <FileName>Category.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataAccess.Media" Collapsed="true">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJAAFAAAAQEgAkggECAJEABAAIAQCFQEQASABAAACQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.MediaBook" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEAEAAAAAiAABAABAUAgEAAgABoEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.MediaMisc" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAAAAAAAAAAIABAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.MediaMusic" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABEAAAIAAAAYAIAAgAAAIABAAAAAAQAABAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.MediaRenting" Collapsed="true">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIAAAAAAAAAIAAEIAEwQBAQAQEIAAACAAAACAUw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.MediaState" Collapsed="true">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQEAAAAAAAAAAAAAAAIIAAAAAAAAAABAAEBBIQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.MediaType" Collapsed="true">
+    <Position X="1.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAABAgAAEgAAAAAAAIIAAAAAAAABAFAIQACAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.MediaVideo" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAJQQEAAAhAAAAAAAAABAAAAAAAAAARAAEAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.Reservation" Collapsed="true">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIABEAAACBABAAAgIAEAAACiAAAQAAAAAAAAQAAAAQQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.Setting" Collapsed="true">
+    <Position X="4.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAAAAIAAAAAAAAAAACAAIAEAAABAAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.Title" Collapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAkgAAAEAAAAAAAEAAAAAAAEABQAAAAAARA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.UserMessage" Collapsed="true">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SUgAEIBACAIAAAAgAACAAAAEABAQCAAEGAACIAEAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.User" Collapsed="true">
+    <Position X="1.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFCEAQAWBChsAIFCAEGDwTBCMCAAACQhIYAAAASAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccess.Extensions" Collapsed="true">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

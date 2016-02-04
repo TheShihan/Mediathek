@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/SiteMaster.Master" AutoEventWireup="true" CodeBehind="SiteMasterMenu.master.cs" Inherits="Mediathek_Webfrontend.SiteMasterMenu" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderMenu" runat="server">
+    <div id="menu">
+        <span class="center">
+            <asp:HyperLink ID="HyperLinkHome" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLinkMedia" runat="server" 
+            NavigateUrl="~/MediaTypeSelection.aspx">Medien</asp:HyperLink>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLinkReservations" runat="server" 
+            NavigateUrl="~/Reservations.aspx">Reservationen</asp:HyperLink>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLinkLendings" runat="server" 
+            NavigateUrl="~/Lendings.aspx">Aufträge</asp:HyperLink>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLinkPassword" runat="server" 
+            NavigateUrl="~/ChangePassword.aspx">Kennwort</asp:HyperLink>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLinkLogout" runat="server" 
+            NavigateUrl="~/Logout.aspx">Abmelden</asp:HyperLink>
+
+        </span>
+    </div>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

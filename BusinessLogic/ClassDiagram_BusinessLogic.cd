@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusinessLogic.Localization" Collapsed="true">
+    <Position X="4" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAABAAABEAAAAQAAABAAAAAAAAAgAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLogic.BusinessLogicHandler">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>GhDFBEEO2VuDCAGEVxGDIoEgEyyIEQQwIECAEBCAAgA=</HashCode>
+      <FileName>BusinessLogicHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLogic.Exceptions.ConditionException" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ConditionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLogic.Exceptions.MissingDataException" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\MissingDataException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLogic.Common.Constants" Collapsed="true">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLogic.Common.GenericIntStringItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASEAAAAAAAAEAAAABCAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\GenericIntStringItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BusinessLogic.Common.Helper" Collapsed="true">
+    <Position X="4" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAEAAAIAAAAAAAAAAAQAIA=</HashCode>
+      <FileName>Common\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLogic.Common.SessionInfo" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAIAAARAAIAAwCAAAIBgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SessionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLogic.Common.Validation" Collapsed="true">
+    <Position X="4" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Common\Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BusinessLogic.Common.UserType" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusinessLogic.Common.FormMode" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="IntTakerDelegate" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Common\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="BasicDelegate" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

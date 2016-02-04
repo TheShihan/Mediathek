@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDF217C5-7526-4AD7-BDC1-CA8890EFC598}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MediathekClient</RootNamespace>
+    <AssemblyName>MediathekClient</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Resources\Mediathek.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\MediathekClient.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ClientEnumerations.cs" />
+    <Compile Include="Common\Localization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Tools.cs" />
+    <Compile Include="Forms\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaAdd.Designer.cs">
+      <DependentUpon>FrmMediaAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmAdminManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAdminManager.Designer.cs">
+      <DependentUpon>FrmAdminManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmDlgBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmDlgBase.Designer.cs">
+      <DependentUpon>FrmDlgBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCustomerManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCustomerManager.Designer.cs">
+      <DependentUpon>FrmCustomerManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaBookManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaBookManager.Designer.cs">
+      <DependentUpon>FrmMediaBookManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaBookSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaBookSearch.Designer.cs">
+      <DependentUpon>FrmMediaBookSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaImgChanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaImgChanger.Designer.cs">
+      <DependentUpon>FrmMediaImgChanger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaBookBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaBookBase.Designer.cs">
+      <DependentUpon>FrmMediaBookBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMiscBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMiscBase.Designer.cs">
+      <DependentUpon>FrmMediaMiscBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMiscManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMiscManager.Designer.cs">
+      <DependentUpon>FrmMediaMiscManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMiscSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMiscSearch.Designer.cs">
+      <DependentUpon>FrmMediaMiscSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMusicBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMusicBase.Designer.cs">
+      <DependentUpon>FrmMediaMusicBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMusicSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMusicSearch.Designer.cs">
+      <DependentUpon>FrmMediaMusicSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaOverviewBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaOverviewBase.Designer.cs">
+      <DependentUpon>FrmMediaOverviewBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaReservations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaReservations.Designer.cs">
+      <DependentUpon>FrmMediaReservations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaReturn.Designer.cs">
+      <DependentUpon>FrmMediaReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaTypeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaTypeSelector.Designer.cs">
+      <DependentUpon>FrmMediaTypeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaVideoBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaVideoBase.Designer.cs">
+      <DependentUpon>FrmMediaVideoBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaVideoSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaVideoSearch.Designer.cs">
+      <DependentUpon>FrmMediaVideoSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaTasks.Designer.cs">
+      <DependentUpon>FrmMediaTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSearchCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSearchCustomer.Designer.cs">
+      <DependentUpon>FrmSearchCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaVideoManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaVideoManager.Designer.cs">
+      <DependentUpon>FrmMediaVideoManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMusicManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMediaMusicManager.Designer.cs">
+      <DependentUpon>FrmMediaMusicManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Common\Localization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaAdd.resx">
+      <DependentUpon>FrmMediaAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAdminManager.resx">
+      <DependentUpon>FrmAdminManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmDlgBase.resx">
+      <DependentUpon>FrmDlgBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCustomerManager.resx">
+      <DependentUpon>FrmCustomerManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaBookManager.resx">
+      <DependentUpon>FrmMediaBookManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaBookSearch.resx">
+      <DependentUpon>FrmMediaBookSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaImgChanger.resx">
+      <DependentUpon>FrmMediaImgChanger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaBookBase.resx">
+      <DependentUpon>FrmMediaBookBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaMiscBase.resx">
+      <DependentUpon>FrmMediaMiscBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaMiscManager.resx">
+      <DependentUpon>FrmMediaMiscManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaMiscSearch.resx">
+      <DependentUpon>FrmMediaMiscSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaMusicBase.resx">
+      <DependentUpon>FrmMediaMusicBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaMusicSearch.resx">
+      <DependentUpon>FrmMediaMusicSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaOverviewBase.resx">
+      <DependentUpon>FrmMediaOverviewBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaReservations.resx">
+      <DependentUpon>FrmMediaReservations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaReturn.resx">
+      <DependentUpon>FrmMediaReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaTypeSelector.resx">
+      <DependentUpon>FrmMediaTypeSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaVideoBase.resx">
+      <DependentUpon>FrmMediaVideoBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaVideoSearch.resx">
+      <DependentUpon>FrmMediaVideoSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaTasks.resx">
+      <DependentUpon>FrmMediaTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSearchCustomer.resx">
+      <DependentUpon>FrmSearchCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaVideoManager.resx">
+      <DependentUpon>FrmMediaVideoManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMediaMusicManager.resx">
+      <DependentUpon>FrmMediaMusicManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{A7CACCC9-9EAC-44D2-B023-2F87155D7426}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{9418B290-2C3D-4D02-9702-DE7BD8432EAD}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\DataAccess.Category.datasource" />
+    <None Include="Properties\DataSources\DataAccess.MediaBook.datasource" />
+    <None Include="Properties\DataSources\DataAccess.MediaMisc.datasource" />
+    <None Include="Properties\DataSources\DataAccess.MediaMusic.datasource" />
+    <None Include="Properties\DataSources\DataAccess.MediaType.datasource" />
+    <None Include="Properties\DataSources\DataAccess.MediaVideo.datasource" />
+    <None Include="Properties\DataSources\DataAccess.User.datasource" />
+    <None Include="Resources\Mediathek.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram_Mediathek_Client.cd" />
+    <None Include="Properties\DataSources\DataAccess.Media.datasource" />
+    <None Include="Properties\DataSources\DataAccess.MediaRenting.datasource" />
+    <None Include="Properties\DataSources\DataAccess.Reservation.datasource" />
+    <None Include="Resources\arrow_right.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

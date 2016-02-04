@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtTrackList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 14</value>
+  </data>
+  <data name="txtTrackList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtTrackList.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;txtTrackList.Name" xml:space="preserve">
+    <value>txtTrackList</value>
+  </data>
+  <data name="&gt;&gt;txtTrackList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTrackList.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;txtTrackList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblTrackList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTrackList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 17</value>
+  </data>
+  <data name="lblTrackList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="lblTrackList.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblTrackList.Text" xml:space="preserve">
+    <value>Track-Liste:</value>
+  </data>
+  <data name="&gt;&gt;lblTrackList.Name" xml:space="preserve">
+    <value>lblTrackList</value>
+  </data>
+  <data name="&gt;&gt;lblTrackList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTrackList.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;lblTrackList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtTag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 40</value>
+  </data>
+  <data name="txtTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtTag.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;txtTag.Name" xml:space="preserve">
+    <value>txtTag</value>
+  </data>
+  <data name="&gt;&gt;txtTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTag.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;txtTag.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTag.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 43</value>
+  </data>
+  <data name="lblTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="lblTag.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblTag.Text" xml:space="preserve">
+    <value>Tag:</value>
+  </data>
+  <data name="&gt;&gt;lblTag.Name" xml:space="preserve">
+    <value>lblTag</value>
+  </data>
+  <data name="&gt;&gt;lblTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTag.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;lblTag.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtGenre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 40</value>
+  </data>
+  <data name="txtGenre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtGenre.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;txtGenre.Name" xml:space="preserve">
+    <value>txtGenre</value>
+  </data>
+  <data name="&gt;&gt;txtGenre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGenre.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;txtGenre.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblGenre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGenre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 43</value>
+  </data>
+  <data name="lblGenre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblGenre.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="lblGenre.Text" xml:space="preserve">
+    <value>Genre:</value>
+  </data>
+  <data name="&gt;&gt;lblGenre.Name" xml:space="preserve">
+    <value>lblGenre</value>
+  </data>
+  <data name="&gt;&gt;lblGenre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGenre.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;lblGenre.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtArtist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 14</value>
+  </data>
+  <data name="txtArtist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtArtist.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;txtArtist.Name" xml:space="preserve">
+    <value>txtArtist</value>
+  </data>
+  <data name="&gt;&gt;txtArtist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtArtist.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;txtArtist.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblArtist.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblArtist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 17</value>
+  </data>
+  <data name="lblArtist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblArtist.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblArtist.Text" xml:space="preserve">
+    <value>Künstler:</value>
+  </data>
+  <data name="&gt;&gt;lblArtist.Name" xml:space="preserve">
+    <value>lblArtist</value>
+  </data>
+  <data name="&gt;&gt;lblArtist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArtist.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;lblArtist.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 40</value>
+  </data>
+  <data name="txtDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;txtDesc.Name" xml:space="preserve">
+    <value>txtDesc</value>
+  </data>
+  <data name="&gt;&gt;txtDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDesc.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;txtDesc.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
+  </data>
+  <data name="lblDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="lblDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblDesc.Text" xml:space="preserve">
+    <value>Beschreibung:</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Name" xml:space="preserve">
+    <value>lblDesc</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 14</value>
+  </data>
+  <data name="txtTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Name" xml:space="preserve">
+    <value>txtTitle</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Titel:</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;pnlMediaSearch.Name" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;pnlMediaSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMediaSearch.Parent" xml:space="preserve">
+    <value>gbMedia</value>
+  </data>
+  <data name="&gt;&gt;pnlMediaSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;butSearchOk.Name" xml:space="preserve">
+    <value>butSearchOk</value>
+  </data>
+  <data name="&gt;&gt;butSearchOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSearchOk.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;butSearchOk.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;butSearchClear.Name" xml:space="preserve">
+    <value>butSearchClear</value>
+  </data>
+  <data name="&gt;&gt;butSearchClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSearchClear.Parent" xml:space="preserve">
+    <value>pnlMediaSearch</value>
+  </data>
+  <data name="&gt;&gt;butSearchClear.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="bsMedia.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>275, 17</value>
+  </metadata>
+  <metadata name="bsResult.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>182, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvMedia.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="clmMediaId.HeaderText" xml:space="preserve">
+    <value>MediaId</value>
+  </data>
+  <data name="clmMediaId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="clmAddToBasket.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmAddToBasket.HeaderText" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="clmAddToBasket.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="clmTitle.HeaderText" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="clmDesc.HeaderText" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <metadata name="clmArtist.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmArtist.HeaderText" xml:space="preserve">
+    <value>Künstler</value>
+  </data>
+  <metadata name="clmGenre.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmGenre.HeaderText" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <metadata name="clmTrackList.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmTrackList.HeaderText" xml:space="preserve">
+    <value>Track-Liste</value>
+  </data>
+  <data name="clmTag.HeaderText" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <metadata name="clmCategoryUnbound.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="categoryBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="clmCategoryUnbound.HeaderText" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <metadata name="clmImageChg.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmImageChg.HeaderText" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="clmImageChg.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dgvMedia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 138</value>
+  </data>
+  <data name="dgvMedia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>702, 369</value>
+  </data>
+  <data name="dgvMedia.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dgvMedia.Name" xml:space="preserve">
+    <value>dgvMedia</value>
+  </data>
+  <data name="&gt;&gt;dgvMedia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvMedia.Parent" xml:space="preserve">
+    <value>gbMedia</value>
+  </data>
+  <data name="&gt;&gt;dgvMedia.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbMedia.Name" xml:space="preserve">
+    <value>gbMedia</value>
+  </data>
+  <data name="&gt;&gt;gbMedia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbMedia.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbMedia.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlControlButtons.Name" xml:space="preserve">
+    <value>pnlControlButtons</value>
+  </data>
+  <data name="&gt;&gt;pnlControlButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlControlButtons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlControlButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>966, 592</value>
+  </data>
+  <data name="&gt;&gt;bsMedia.Name" xml:space="preserve">
+    <value>bsMedia</value>
+  </data>
+  <data name="&gt;&gt;bsMedia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bsResult.Name" xml:space="preserve">
+    <value>bsResult</value>
+  </data>
+  <data name="&gt;&gt;bsResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;categoryBindingSource.Name" xml:space="preserve">
+    <value>categoryBindingSource</value>
+  </data>
+  <data name="&gt;&gt;categoryBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmMediaId.Name" xml:space="preserve">
+    <value>clmMediaId</value>
+  </data>
+  <data name="&gt;&gt;clmMediaId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmAddToBasket.Name" xml:space="preserve">
+    <value>clmAddToBasket</value>
+  </data>
+  <data name="&gt;&gt;clmAddToBasket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewButtonColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmTitle.Name" xml:space="preserve">
+    <value>clmTitle</value>
+  </data>
+  <data name="&gt;&gt;clmTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmDesc.Name" xml:space="preserve">
+    <value>clmDesc</value>
+  </data>
+  <data name="&gt;&gt;clmDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmArtist.Name" xml:space="preserve">
+    <value>clmArtist</value>
+  </data>
+  <data name="&gt;&gt;clmArtist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmGenre.Name" xml:space="preserve">
+    <value>clmGenre</value>
+  </data>
+  <data name="&gt;&gt;clmGenre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmTrackList.Name" xml:space="preserve">
+    <value>clmTrackList</value>
+  </data>
+  <data name="&gt;&gt;clmTrackList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmTag.Name" xml:space="preserve">
+    <value>clmTag</value>
+  </data>
+  <data name="&gt;&gt;clmTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmCategoryUnbound.Name" xml:space="preserve">
+    <value>clmCategoryUnbound</value>
+  </data>
+  <data name="&gt;&gt;clmCategoryUnbound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmImageChg.Name" xml:space="preserve">
+    <value>clmImageChg</value>
+  </data>
+  <data name="&gt;&gt;clmImageChg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewButtonColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMediaMusicBase</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MediathekClient.Forms.FrmMediaOverviewBase, MediathekClient, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
